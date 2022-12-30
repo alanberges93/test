@@ -1,0 +1,116 @@
+﻿body {
+    background-color: #414a4d !important;
+    font-family: "Asap", sans-serif;
+    color: #989898;
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* NAVBAR */
+.navbar{
+    margin-bottom: 0px !important;
+}
+
+/* TITLE */
+.title {
+    vertical-align: middle !important;
+}
+.title-item {
+    vertical-align: middle !important;
+    text-align: center;
+    background-color: #212121;
+    vertical-align: middle;
+}
+    .title-item img {
+        margin-top: 45px;
+        margin-bottom: 40px;
+        height: 35vh;
+        width: 100%;
+    }
+.title-text-title {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: white;
+}
+.title-text-color {
+    color: #47949f;
+    margin-bottom: 30px;
+}
+.title-text-simple {
+    color: white;
+    margin-top: 10px;
+}
+
+/* PROYECTS */
+.proyects-item {
+    /*border-radius: 10px;
+    margin: 10px;*/
+    text-align: center;
+    background-color: #212121;
+}
+    .proyects-item a:hover {
+        text-decoration: none;
+    }
+    .proyects-item img {
+        height: 25vh;
+        width: 100%;
+    }
+    .proyects-item h1 {
+        color: #47949f;
+        margin-top: 10px;
+    }
+    .proyects-item p {
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+/* CAROUSEL */
+.carousel {
+    padding: 0 !important;
+    background-color: #212121;
+    margin-bottom: 40px;
+}
+.carousel-inner {
+    width: 100%;
+    height: 60vh !important; /* mobile config */
+}
+.carousel-control{
+    opacity: 0 !important;
+}
+.carousel-control:hover {
+    opacity: 1 !important;
+}
+.carousel-indicators .active {
+    background-color: #47949f !important;
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* Mobile Configs*/
+@media only screen and (max-width: 600px) {
+    .title-item img {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .title-text-title {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .title-text-color {
+        margin-bottom: 15px;
+    }
+    .title-text-color, .title-text-simple {
+        font-size: 14px;
+        line-height: 1.42857143;
+        margin-bottom: 40px;
+    }
+
+    .proyects-item h1 {
+        font-size: 20px;
+    }
+}

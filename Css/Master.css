@@ -1,0 +1,45 @@
+﻿
+
+.LogoMaster{
+    width:50%;
+    height:200% !important;
+}
+
+a, li:active {
+    color: white;
+}
+
+.Titulo {
+    font-family: Gautami;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    /*color:#0094ff;*/
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.navbar-nav {
+    font-size: 14px !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.bg-gray {
+    background-color: #6c757dc4 !important;
+}
+
+
+.bg-grayDark {
+    background-color: #6c757d9e !important;
+}
+
+.bg-cian {
+    background-color: #3282a6;
+}
+
+.bg-cianlight {
+    background-color: #96d1dd
+}
+
+.bg-ciandark {
+    background-color: #2f808f;
+}
